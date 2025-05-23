@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Simon Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Simon Game</h1>
+
+  <div id="button-container">
+    <div class="row">
+      <div class="btn" id="red"></div>
+      <div class="btn" id="blue"></div>
+    </div>
+    <div class="row">
+      <div class="btn" id="green"></div>
+      <div class="btn" id="yellow"></div>
+    </div>
+  </div>
+
+  <div id="controls">
+    <button class="control-btn" id="start-btn">Start</button>
+    <button class="control-btn" id="reset-btn">Reset</button>
+    <button class="control-btn" id="sound-btn">Sound: On</button>
+    <button class="control-btn" id="add-row-btn">Add Row</button>
+  </div>
+
+  <div id="status-bar">
+    <div id="move-count">Moves: 0</div>
+    <div id="high-score">High Score: 0</div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
